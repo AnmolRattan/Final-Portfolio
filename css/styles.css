@@ -205,3 +205,23 @@ margin: 40px 0;
   margin: 500px 100px;
 }
 }
+@@media (min-width: 1600px) {
+  h1 {
+
+    font-size: 625%;
+    color: #fff;
+    position: absolute;
+    margin: 400px 400px;
+    top: 0;
+    font-family: 'favela', sans-serif;
+    font-weight:800;
+  }
+
+  h2 {
+    color: #fff;
+    font-family: 'favela', sans-serif;
+    font-size: 2.5rem;
+    font-weight:800;
+  }
+
+}
