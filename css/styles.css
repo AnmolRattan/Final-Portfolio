@@ -18,24 +18,29 @@ h1 {
 
 h2 {
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'favela', sans-serif;
   font-size: 2.5rem;
-  font-weight: normal;
+  font-weight:800;
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'favela', sans-serif;
+  font-size: 2rem;
   color: #fff;
+  font-weight:400;
 }
 
 p {
   line-height: 2;
+  color: #fff;
+  font-family: 'favela', sans-serif;
+  font-weight:200;
   text-align: center;
 }
 
 
 hr {
-  border: dotted #7F8487 6px;
+  border: dotted #fff 6px;
   border-bottom: none;
   width: 10%;
   margin: auto;
@@ -58,13 +63,18 @@ a {
   text-decoration: none;
 
 }
-
+.my-skills{
+margin: 40px 0;
+}
+.design-development{
+  text-align:center;
+}
 .intro-video{
   width: 100%;
 }
 .intro-text{
   position: absolute;
-  margin: 500px 600px;
+  margin: 700px 600px;
   text-align: center;
   top: 0;
 }
@@ -95,11 +105,14 @@ a {
 
 }
 .footer-link {
-  color: #11999E;
+  color: #fff;
+}
+.skill-title{
+
 }
 
 .skill-row {
-  width: 50%;
+  width: 100%;
   margin: 100px auto;
   text-align: left;
   line-height: 2;
@@ -147,30 +160,11 @@ a {
 }
 
 .btn {
-  background: #30e3cb;
-  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 40px 10px 40px;
-  text-decoration: none;
+  font-family: 'favela', sans-serif;
+  font-weight:800;
 }
 
 .btn:hover {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-  text-decoration: none;
 }
 
 .navbar{
@@ -181,14 +175,25 @@ a {
 }
 .footer-link {
   padding-top: 10px;
+  font-family: 'favela', sans-serif;
+  font-weight:400;
+}
+.footer-link :hover{
+
 }
 
 .copyright-message {
-  color: #11999E;
+  color: #fff;
+  font-family: 'favela', sans-serif;
+  font-weight:800;
   text-decoration-style: double;
   font-size: 1rem;
   padding-top: 20px;
 
+}
+
+#skills-section{
+  padding: 0 200px;
 }
 
 @media (max-width: 1600px) {
@@ -196,6 +201,6 @@ a {
     margin: 200px 400px;
   }
 .intro-text{
-  margin: 500px 100px;
+  margin: 500px 50px;
 }
 }
