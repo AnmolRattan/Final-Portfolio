@@ -84,6 +84,7 @@ margin: 40px 0;
 
 .top-container {
   position: relative;
+  align-content: center;
 }
 
 .my-intro {
@@ -201,6 +202,6 @@ margin: 40px 0;
     margin: 200px 400px;
   }
 .intro-text{
-  margin: 500px 50px;
+  margin: 500px 100px;
 }
 }
