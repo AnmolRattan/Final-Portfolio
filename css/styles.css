@@ -1,12 +1,9 @@
+/* All elements */
  html{
    scroll-behavior: smooth;
 }
-body{
-  background-color: black;
-}
 
 h1 {
-
   font-size: 625%;
   color: #fff;
   position: absolute;
@@ -30,6 +27,13 @@ h3 {
   font-weight:400;
 }
 
+body{
+  background-color: black;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+}
+
 p {
   line-height: 2;
   color: #fff;
@@ -38,83 +42,60 @@ p {
   text-align: center;
 }
 
-
 hr {
   border: dotted #fff 6px;
   border-bottom: none;
   width: 10%;
   margin: auto;
   margin-bottom: 50px;
-
-}
-
-body {
-  text-align: center;
-  font-size: 20px;
-  font-family: 'Merriweather', serif;
-
 }
 
 a {
-  color: #3BACB6;
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   font-size: 25px;
   text-decoration: none;
-
 }
-.my-skills{
-margin: 40px 0;
+/* ------------------------------------------ */
+/* All Classes */
+/* NavBar */
+.navbar{
+  width: 100%;
 }
-.design-development{
-  text-align:center;
+.nav-link{
+  color: #fff;
+}
+/* ------------------------------------------ */
+/* Top-Container */
+.top-container {
+  position: relative;
 }
 .intro-video{
   width: 100%;
-
 }
+
 .intro-text{
   position: absolute;
   margin: 700px 600px;
   top: 0;
 }
-.bg-color{
-  background-color:  #11999E;
+/* ------------------------------------------ */
+/* Middle-Container */
+.middle-container {
+  margin: 100px 0;
+  width: auto;
 }
-
-.top-container {
-  position: relative;
-
-}
-
 .my-intro {
   color: #fff;
   width: 50%;
   margin: auto;
   padding-bottom: 100px;
 }
-
-.middle-container {
-  margin: 100px 0;
-  width: auto;
+/* ------------------------------------------ */
+/* Skills-Section */
+.my-skills{
+margin: 40px 0;
 }
-
-.bottom-container {
-  padding-top: 100px;
-  padding-bottom: 20px;
-  margin-top: 50px;
-
-}
-.footer-link {
-  color: #fff;
-}
-.footer-video{
-  width: 100%;
-}
-.skill-title{
-
-}
-
 .skill-row {
   width: 100%;
   margin: 100px auto;
@@ -128,7 +109,6 @@ margin: 40px 0;
   float: left;
   margin-right: 30px;
 }
-
 .design-dev-intro {
   text-align: left;
   margin-left: auto;
@@ -140,7 +120,6 @@ margin: 40px 0;
   margin-right: 10px;
   float: right;
 }
-
 .Research-analytics-explanation {
   text-align: left;
   margin-left: auto;
@@ -152,38 +131,38 @@ margin: 40px 0;
   float: left;
   margin-right: 30px;
 }
-
 .marketing-promotion-explanation {
   text-align: left;
   margin-left: auto;
 }
+#skills-section{
+  padding: 0 200px;
+}
+/* ------------------------------------------ */
+/* Contact-Section */
 
 .contact-message {
   width: 70%;
   margin: 40px auto 60px;
 }
-
 .btn {
   font-family: 'favela', sans-serif;
   font-weight:800;
 }
-
-.btn:hover {
+/* ------------------------------------------ */
+/* Footer-Section */
+.bottom-container {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  margin-top: 50px;
 }
 
-.navbar{
-  width: 100%;
-
-}
-.nav-link{
-  color: #fff;
-}
 .footer-link {
+  color: #fff;
   padding-top: 10px;
   font-family: 'favela', sans-serif;
   font-weight:400;
 }
-
 .copyright-message {
   color: #fff;
   font-family: 'favela', sans-serif;
@@ -193,88 +172,103 @@ margin: 40px 0;
   padding-top: 20px;
 
 }
-
-#skills-section{
-  padding: 0 200px;
-}
-
+/* ------------------------------------------ */
+/* Media-Queries */
 @media (max-width: 1600px) {
+  /* NavBar */
+  .Logo{
+    width: 200px;
+    height: 200px;
+  }
+  /* Top-Container */
   h1{
     margin: 200px 400px;
   }
-.intro-text{
-  margin: 500px 100px;
+  .intro-text{
+    margin: 500px 100px;
+    font-size: 2rem;
+  }
+  /* ------------------------------------------ */
+  /* Middle-Container */
+  .Hello-msg{
+    margin-bottom: 20px;
+    font-size: 5rem;
+  }
+  .my-intro{
+  padding-bottom: 20px;
   font-size: 2rem;
-}
-.my-intro{
-padding-bottom: 20px;
-font-size: 1.5rem;
-}
+  }
 
-.contact-me{
-  position: absolute;
-  margin: 150px 0;
+/* ------------------------------------------ */
+/* Skills-Section */
+.my-skills{
+  font-size: 5rem;
 }
-.footer-video{
-  width: auto;
-  padding: 0 auto;
-}
+.skill-title{
+   font-size: 3rem;
+   font-weight: bold;
+ }
+ .design-dev-intro{
+   font-size: 2rem;
+ }
+ .Research-analytics-explanation{
+   font-size: 2rem;
+ }
+ .marketing-promotion-explanation{
+   font-size: 2rem;
+ }
+/* ------------------------------------------ */
+/* Contact-Section */
+
 .contact-heading{
-  font-size: 2rem;
-  margin-bottom: 50px;
+  font-size: 4rem;
+  margin: 0px 200px;
+  padding-bottom: 50px;
 }
 .freelance-text{
-    font-size: 2rem;
+    font-size: 3rem;
 }
 .contact-message{
-font-size: 1rem;
-}
-.footer-link{
-padding-bottom: 20px;
-  margin-bottom: 5px;
 font-size: 2rem;
 }
-.copyright-message{
-  margin-top: 20px;
+.btn{
+  font-size: 2rem;
 }
-.design-dev-intro{
-  font-size: 1.5rem;
+/* ------------------------------------------ */
+/* Footer-Section */
+.footer-link{
+  font-size: 2.5rem;
 }
-.Research-analytics-explanation{
-  font-size: 1.5rem;
+/* ------------------------------------------ */
 }
-.marketing-promotion-explanation{
-  font-size: 1.5rem;
-}
-}
+/* ------------------------------------------ */
 @media (min-width: 1900px) {
-
+  /* NavBar */
+  .Logo{
+    width: 150px;
+    height: 150px;
+  }
+  .nav-link{
+    font-size: 2rem;
+    }
+    /* ------------------------------------------ */
+/* Top-Container */
   h1{
     margin: 400px 400px;
     font-size: 700%;
   }
-
-  hr{
-    margin-bottom: 80px;
+  .intro-video{
+     margin: 0 auto  0 auto;
   }
   .intro-text{
     margin: 800px 500px;
     font-size: 3rem;
   }
-  .my-skills{
-    font-size: 4rem;
-  }
-  .skill-title{
-    font-size: 2.8rem;
-    font-weight: bold;
-  }
-  .intro-video{
-     margin: 0 auto  0 auto;
-  }
-  .nav-link{
-    font-size: 2rem;
-    }
-
+  /* ------------------------------------------ */
+/* Middle-Container */
+.profile-pic{
+  margin-bottom: 25px;
+}
 .Hello-msg{
   margin-bottom: 20px;
   font-size: 4rem;
@@ -283,34 +277,42 @@ font-size: 2rem;
 padding-bottom: 20px;
 font-size: 2rem;
 }
-.Logo{
-  width: 150px;
-  height: 150px;
+hr{
+    margin-bottom: 80px;
+  }
+/* ------------------------------------------ */
+/* Skills-Section */
+.my-skills{
+  font-size: 4rem;
 }
-.profile-pic{
-  margin-bottom: 25px;
-}
-.design-dev-intro{
-  font-size: 2rem;
-}
-.Research-analytics-explanation{
-  font-size: 2rem;
-}
-.marketing-promotion-explanation{
-  font-size: 2rem;
-}
-.design-dev-img{
-  width: 250px;
-  height: 250px;
-}
-.research-analytics-img{
-  width: 350px;
-  height: 300px;
-}
-.marketing-promotion-img{
-  width: 400px;
-  height: 400px;
-}
+ .skill-title{
+    font-size: 2.8rem;
+    font-weight: bold;
+  }
+  .design-dev-img{
+    width: 250px;
+    height: 250px;
+  }
+  .design-dev-intro{
+    font-size: 2rem;
+  }
+  .research-analytics-img{
+    width: 350px;
+    height: 300px;
+  }
+  .Research-analytics-explanation{
+    font-size: 2rem;
+  }
+  .marketing-promotion-img{
+    width: 400px;
+    height: 400px;
+  }
+  .marketing-promotion-explanation{
+    font-size: 2rem;
+  }
+/* ------------------------------------------ */
+/* Contact-Section */
+
 .contact-heading{
   font-size: 4rem;
 }
@@ -323,10 +325,8 @@ font-size: 2rem;
 .btn{
   font-size: 2rem;
 }
-.btn:hover{
-  color: #fff;
-}
-.contact-me{
-  position: absolute;
-  margin: 200px 0;
-}
+
+/* ------------------------------------------ */
+/* Footer-Section */
+
+/* ------------------------------------------ */
