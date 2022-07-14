@@ -209,13 +209,13 @@ margin: 40px 0;
    font-weight: bold;
  }
  .design-dev-intro{
-   font-size: 2rem;
+   font-size: 1.5rem;
  }
  .Research-analytics-explanation{
-   font-size: 2rem;
+   font-size: 1.5rem;
  }
  .marketing-promotion-explanation{
-   font-size: 2rem;
+   font-size: 1.5rem;
  }
 /* ------------------------------------------ */
 /* Contact-Section */
@@ -294,21 +294,21 @@ hr{
     height: 250px;
   }
   .design-dev-intro{
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .research-analytics-img{
     width: 350px;
     height: 300px;
   }
   .Research-analytics-explanation{
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .marketing-promotion-img{
     width: 400px;
     height: 400px;
   }
   .marketing-promotion-explanation{
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 /* ------------------------------------------ */
 /* Contact-Section */
