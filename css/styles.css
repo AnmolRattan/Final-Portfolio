@@ -71,6 +71,7 @@ margin: 40px 0;
 }
 .intro-video{
   width: 100%;
+
 }
 .intro-text{
   position: absolute;
@@ -83,7 +84,7 @@ margin: 40px 0;
 
 .top-container {
   position: relative;
-  align-content: center;
+
 }
 
 .my-intro {
@@ -106,6 +107,9 @@ margin: 40px 0;
 }
 .footer-link {
   color: #fff;
+}
+.footer-video{
+  width: 100%;
 }
 .skill-title{
 
@@ -169,6 +173,7 @@ margin: 40px 0;
 
 .navbar{
   width: 100%;
+
 }
 .nav-link{
   color: #fff;
@@ -177,9 +182,6 @@ margin: 40px 0;
   padding-top: 10px;
   font-family: 'favela', sans-serif;
   font-weight:400;
-}
-.footer-link :hover{
-
 }
 
 .copyright-message {
@@ -202,26 +204,129 @@ margin: 40px 0;
   }
 .intro-text{
   margin: 500px 100px;
+  font-size: 2rem;
+}
+.my-intro{
+padding-bottom: 20px;
+font-size: 1.5rem;
+}
+
+.contact-me{
+  position: absolute;
+  margin: 150px 0;
+}
+.footer-video{
+  width: auto;
+  padding: 0 auto;
+}
+.contact-heading{
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+.freelance-text{
+    font-size: 2rem;
+}
+.contact-message{
+font-size: 1rem;
+}
+.footer-link{
+padding-bottom: 20px;
+  margin-bottom: 5px;
+font-size: 2rem;
+}
+.copyright-message{
+  margin-top: 20px;
+}
+.design-dev-intro{
+  font-size: 1.5rem;
+}
+.Research-analytics-explanation{
+  font-size: 1.5rem;
+}
+.marketing-promotion-explanation{
   font-size: 1.5rem;
 }
 }
-@media (min-width: 1600px) {
-  h1 {
+@media (min-width: 1900px) {
 
-    font-size: 625%;
-    color: #fff;
-    position: absolute;
+  h1{
     margin: 400px 400px;
-    top: 0;
-    font-family: 'favela', sans-serif;
-    font-weight:800;
+    font-size: 700%;
   }
 
-  h2 {
-    color: #fff;
-    font-family: 'favela', sans-serif;
-    font-size: 2.5rem;
-    font-weight:800;
+  hr{
+    margin-bottom: 80px;
   }
+  .intro-text{
+    margin: 800px 500px;
+    font-size: 3rem;
+  }
+  .my-skills{
+    font-size: 4rem;
+  }
+  .skill-title{
+    font-size: 2.8rem;
+    font-weight: bold;
+  }
+  .intro-video{
+     margin: 0 auto  0 auto;
+  }
+  .nav-link{
+    font-size: 2rem;
+    }
 
+.Hello-msg{
+  margin-bottom: 20px;
+  font-size: 4rem;
+}
+.my-intro{
+padding-bottom: 20px;
+font-size: 2rem;
+}
+.Logo{
+  width: 150px;
+  height: 150px;
+}
+.profile-pic{
+  margin-bottom: 25px;
+}
+.design-dev-intro{
+  font-size: 2rem;
+}
+.Research-analytics-explanation{
+  font-size: 2rem;
+}
+.marketing-promotion-explanation{
+  font-size: 2rem;
+}
+.design-dev-img{
+  width: 250px;
+  height: 250px;
+}
+.research-analytics-img{
+  width: 350px;
+  height: 300px;
+}
+.marketing-promotion-img{
+  width: 400px;
+  height: 400px;
+}
+.contact-heading{
+  font-size: 4rem;
+}
+.freelance-text{
+    font-size: 3rem;
+}
+.contact-message{
+font-size: 2rem;
+}
+.btn{
+  font-size: 2rem;
+}
+.btn:hover{
+  color: #fff;
+}
+.contact-me{
+  position: absolute;
+  margin: 200px 0;
 }
