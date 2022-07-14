@@ -4,7 +4,7 @@
 }
 
 h1 {
-  font-size: 525%;
+  font-size: 625%;
   color: #fff;
   position: absolute;
   margin: 400px 400px;
@@ -61,8 +61,6 @@ a {
 /* NavBar */
 .navbar{
   width: 100%;
-  padding-bottom: 0;
-  padding-top: 0;
 }
 .nav-link{
   color: #fff;
@@ -179,59 +177,59 @@ margin: 40px 0;
 @media (max-width: 1600px) {
   /* NavBar */
   .Logo{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
   }
   /* Top-Container */
   h1{
     margin: 200px 400px;
   }
   .intro-text{
-    margin: 500px 500px;
-    font-size: 1.5rem;
+    margin: 500px 100px;
+    font-size: 2rem;
   }
   /* ------------------------------------------ */
   /* Middle-Container */
   .Hello-msg{
     margin-bottom: 20px;
-    font-size: 3rem;
+    font-size: 5rem;
   }
   .my-intro{
   padding-bottom: 20px;
-  font-size: 1.5rem;
+  font-size: 2rem;
   }
 
 /* ------------------------------------------ */
 /* Skills-Section */
 .my-skills{
-  font-size: 3rem;
+  font-size: 5rem;
 }
 .skill-title{
-   font-size: 1.5rem;
+   font-size: 3rem;
    font-weight: bold;
  }
  .design-dev-intro{
-   font-size: 1rem;
+   font-size: 2rem;
  }
  .Research-analytics-explanation{
-   font-size: 1rem;
+   font-size: 2rem;
  }
  .marketing-promotion-explanation{
-   font-size: 1rem;
+   font-size: 2rem;
  }
 /* ------------------------------------------ */
 /* Contact-Section */
 
 .contact-heading{
-  font-size: 3rem;
+  font-size: 4rem;
   margin: 0px 200px;
   padding-bottom: 50px;
 }
 .freelance-text{
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 .contact-message{
-font-size: 1.5rem;
+font-size: 2rem;
 }
 .btn{
   font-size: 2rem;
@@ -247,8 +245,8 @@ font-size: 1.5rem;
 @media (min-width: 1900px) {
   /* NavBar */
   .Logo{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
   }
   .nav-link{
     font-size: 2rem;
@@ -264,7 +262,7 @@ font-size: 1.5rem;
   }
   .intro-text{
     margin: 800px 500px;
-    font-size: 1.5rem;
+    font-size: 3rem;
   }
   /* ------------------------------------------ */
 /* Middle-Container */
@@ -273,11 +271,11 @@ font-size: 1.5rem;
 }
 .Hello-msg{
   margin-bottom: 20px;
-  font-size: 2rem;
+  font-size: 4rem;
 }
 .my-intro{
 padding-bottom: 20px;
-font-size: 1.5rem;
+font-size: 2rem;
 }
 hr{
     margin-bottom: 80px;
@@ -285,10 +283,10 @@ hr{
 /* ------------------------------------------ */
 /* Skills-Section */
 .my-skills{
-  font-size: 2rem;
+  font-size: 4rem;
 }
  .skill-title{
-    font-size: 2rem;
+    font-size: 2.8rem;
     font-weight: bold;
   }
   .design-dev-img{
@@ -296,33 +294,33 @@ hr{
     height: 250px;
   }
   .design-dev-intro{
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .research-analytics-img{
     width: 350px;
     height: 300px;
   }
   .Research-analytics-explanation{
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .marketing-promotion-img{
     width: 400px;
     height: 400px;
   }
   .marketing-promotion-explanation{
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 /* ------------------------------------------ */
 /* Contact-Section */
 
 .contact-heading{
-  font-size: 2rem;
+  font-size: 4rem;
 }
 .freelance-text{
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 .contact-message{
-font-size: 1.5rem;
+font-size: 2rem;
 }
 .btn{
   font-size: 2rem;
