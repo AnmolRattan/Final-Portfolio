@@ -172,6 +172,9 @@ margin: 40px 0;
   padding-top: 20px;
 
 }
+.footer-icon{
+  color: #fff;
+}
 /* ------------------------------------------ */
 /* Media-Queries */
 @media (max-width: 1600px) {
@@ -262,6 +265,95 @@ font-size: 2rem;
   }
   .intro-text{
     margin: 800px 500px;
+    font-size: 3rem;
+  }
+  /* ------------------------------------------ */
+/* Middle-Container */
+.profile-pic{
+  margin-bottom: 25px;
+}
+.Hello-msg{
+  margin-bottom: 20px;
+  font-size: 4rem;
+}
+.my-intro{
+padding-bottom: 20px;
+font-size: 2rem;
+}
+hr{
+    margin-bottom: 80px;
+  }
+/* ------------------------------------------ */
+/* Skills-Section */
+.my-skills{
+  font-size: 4rem;
+}
+ .skill-title{
+    font-size: 2.8rem;
+    font-weight: bold;
+  }
+  .design-dev-img{
+    width: 250px;
+    height: 250px;
+  }
+  .design-dev-intro{
+    font-size: 2rem;
+  }
+  .research-analytics-img{
+    width: 350px;
+    height: 300px;
+  }
+  .Research-analytics-explanation{
+    font-size: 2rem;
+  }
+  .marketing-promotion-img{
+    width: 400px;
+    height: 400px;
+  }
+  .marketing-promotion-explanation{
+    font-size: 2rem;
+  }
+/* ------------------------------------------ */
+/* Contact-Section */
+
+.contact-heading{
+  font-size: 4rem;
+  margin-bottom: 50px;
+}
+.freelance-text{
+    font-size: 2.5rem;
+}
+.contact-message{
+font-size: 2rem;
+}
+.btn{
+  font-size: 2rem;
+}
+
+/* ------------------------------------------ */
+/* Footer-Section */
+
+/* ------------------------------------------ */
+@media (min-width: 3000px) {
+  /* NavBar */
+  .Logo{
+    width: 150px;
+    height: 150px;
+  }
+  .nav-link{
+    font-size: 2rem;
+    }
+    /* ------------------------------------------ */
+/* Top-Container */
+  h1{
+    margin: 600px 900px;
+    font-size: 700%;
+  }
+  .intro-video{
+     margin: 0 auto  0 auto;
+  }
+  .intro-text{
+    margin: 1000px 1100px;
     font-size: 3rem;
   }
   /* ------------------------------------------ */
